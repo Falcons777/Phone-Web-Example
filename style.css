@@ -1,0 +1,1221 @@
+body{
+    background: linear-gradient(#000,#10e4eb,rgb(6, 214, 255),#000000),#000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    body {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Brand Name */
+.web{
+    font-size: 30px;
+    color: white;
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    left: 50px;
+}
+
+.web{
+  position: relative;
+  top: -50px;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+span{
+    color: #1dd9f1;
+}
+
+header .navigation{
+  position: relative;
+}
+
+
+header .navigation .navigation-items a{
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+  left: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .navigation .navigation-items a:before{
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before{
+  width: 100%;
+}
+
+header .navigation {
+  position: relative;
+  padding-top: 30px;
+}
+
+
+
+
+/* Start Text */
+.info{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+    animation: slideInFromLeft 1.5s ease-out;
+    padding-left: 480px;
+}
+
+span.span{
+  color: #10e4eb;
+}
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+span.span1{
+    color: white;
+}
+/* Iphone Category */
+.iphone{
+    color: White;
+    position: relative;
+    left: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out;
+}
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+img[src="iphone1.jpg"] {
+  height: 340px;
+  border-radius: 15px;
+  position: relative;
+  left: 200px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  animation: slideInFromLeft 1.5s ease-out;
+}
+
+
+
+img[src="iphone-15.jpg"] {
+  height: 400px;
+  width: 400px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  border-radius: 15px;
+  position: relative;
+  left: 144px;
+  animation: slideInFromLeft 1.5s ease-out;
+}
+
+
+b.b1{
+    color: black;
+}
+
+b.b2{
+    color: black;
+}
+
+b.b3{
+    color: #10e4eb;
+}
+
+.info-iphone{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out;
+}
+
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(16, 57, 244);
+}
+
+.iphone-15{
+    color: white;
+    position: relative;
+    left: 170px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out;
+}
+
+
+.iphone-15s{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 75px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out;
+
+}
+
+
+b{
+    color: black;
+}
+
+img[alt="iphone-16-pro"] {
+  height: 400px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  border-radius: 15px;
+  position: relative;
+  left: 150px;
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+.iphone-16s{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 75px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+.iphone-14{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+
+span.s11{
+    color: rgb(255, 255, 255);
+}
+
+img[alt="iphone-14"] {
+  height: 400px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  margin: auto;
+  border-radius: 15px;
+  position: relative;
+  left: 60px;
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+
+.iphone-14s{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 150px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out forwards;
+
+}
+
+/* Samsung Part */
+
+.samsung-part{
+    position: relative;
+    left: 900px;
+    top: -2050px;
+}
+
+@keyframes slideInFromRight {
+  from {
+      transform: translateX(100%); 
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+img[alt="s21"] {
+  height: 400px;
+  filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.5));
+  margin: auto;
+  border-radius: 15px;
+  animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.Samsung-s21{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 150px;
+    filter: drop-shadow(2px 2px 5px rgb(15, 228, 218));
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.samsung-s21{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 150px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+img[alt="S24"] {
+  height: 400px;
+  filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.5));
+  margin: auto;
+  border-radius: 15px;
+  animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.samsung-s24{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 180px;
+    filter: drop-shadow(2px 2px 5px rgb(15, 228, 218));
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.samsung-s24s{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 120px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+img[alt="z-flip"] {
+  height: 400px;
+  filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.5));
+  margin: auto;
+  border-radius: 15px;
+  animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.z-flip{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 200px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.z-flips{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 150px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+span.s10{
+    color: white;
+}
+
+a{
+  color: #121ce7dd;
+}
+
+a:hover{
+  color: white;
+}
+
+img[alt="s20"] {
+  height: 400px;
+  filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.5));
+  margin: auto;
+  border-radius: 15px;
+  animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.samsung-20{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 190px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.samsung-s20{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 100px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+ 
+/* The New Models */
+
+h1.text{
+    font-size: 50px;
+    position: relative;
+    top: -2000px;
+    left: 500px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+span.spann{
+    color: white;
+}
+
+.iphone-16{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1950px;
+    left: 125px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+b {
+    color: black;
+}
+
+.modele{
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: -2050px;
+    left: 590px;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+/* alt="iphone-16" */
+img[alt="iphone-16"] {
+  height: 400px;
+  filter: drop-shadow(10px 10px 15px rgb(255, 248, 248));
+  width: auto;
+  position: relative;
+  top: -1900px;
+  left: 100px;
+  border-radius: 15px;
+}
+
+/*  alt="iph 16" */
+img[alt="iph 16"] {
+  height: 400px;
+  filter: drop-shadow(10px 10px 15px #fffefe);
+  width: auto;
+  position: relative;
+  top: -1550px;
+  left: 170px;
+  border-radius: 15px;
+}
+
+/* alt="iphonee 16" */
+img[alt="iphonee 16"] {
+  height: 400px;
+  filter: drop-shadow(10px 10px 15px rgb(255, 255, 255));
+  width: auto;
+  position: relative;
+  top: -1250px;
+  left: 250px;
+  border-radius: 15px;
+}
+
+.offer-part img{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-part img:hover{
+  transform: translateY(-10px);
+   box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+.modele{
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+.blerje{
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+span.new{
+  color: black;
+}
+
+span.model{
+    color: black;
+}
+
+.blerje{
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: -1800px;
+    left: 1080px;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+span.h1{
+    color: black;
+}
+
+.information{
+    position: relative;
+    top: -1980px;
+    left: 80px;
+    font-size: 20px;
+    color: black;
+    filter: drop-shadow(2px 2px 5px black);
+
+}
+
+.iph-16{
+    color: white;
+    position: relative;
+    top: -4150px;
+    font-size: 30px;
+    left: 220px;
+    filter: drop-shadow(2px 2px 5px black);
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+span.info{
+    color: rgb(255, 255, 255);
+}
+
+.information2{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -1700px;
+    left: 570px;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.information3{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -1590px;
+    left: 1070px;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.title{
+    color: black;
+    font-size: 70px;
+    position: relative;
+    top: -1400px;
+    left: 220px;
+    justify-content: space-between;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.sherbimet{
+    color: black;
+    font-size: 30px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+    position: relative;
+    top: -1200px;
+}
+
+span.s1{
+    color: white;
+}
+
+.sherbimet1{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: -1170px;
+    font-weight: bold;
+}
+
+span.spann11{
+    color: white;
+}
+
+a.a1{
+    color: white;
+    font-weight: lighter;
+}
+
+a.a1:hover{
+    color: #000000;
+}
+
+.sherbimet2{
+    color: black;
+    font-size: 30px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+    position: relative;
+    top: -1330px;
+    left: 1000px;
+}
+
+.sherbim4{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: -1305px;
+    left: 1000px;
+}
+
+  
+span.pagesa{
+    color: white;
+}
+
+.pagesat{
+    position: relative;
+    top: -1240px;
+    color: black;
+    font-size: 40px;
+    left: 670px;
+    font-weight: bold;
+    filter: drop-shadow(10px 10px 15px rgb(0, 0, 0));
+}
+
+.payment-icons {
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: -1100px;
+    left: 180px;
+  }
+  
+  .payment-icons i {
+    font-size: 80px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 15px;
+  }
+  
+  .gjurmimi{
+    position: relative;
+    top: -370px;
+    color: rgb(10, 7, 7);
+    font-size: 40px;
+    left: -150px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+  }
+
+  .location-icons {
+    gap: 100px; 
+    position: relative;
+    top: -10px;
+    left: -550px;
+    display: flex;
+  }
+  
+  .location-icons i {
+    font-size: 95px; 
+    padding: 15px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    border: 5px;
+  }
+
+  .location-icons i {
+    font-size: 80px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Location icons hover */
+  .location-icons i:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+.payment-icons i {
+  font-size: 80px;
+  margin: 0 15px;
+  position: relative;
+  right: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Visa */
+.visa:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Mastercard */
+.mastercard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover PayPal */
+.paypal:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Google Pay */
+.gpay:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Apple Pay */
+.applepay:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+ 
+  .gjurmim{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: -850px;
+  }
+
+  b.www{
+    color: black;
+  }
+
+  .gjurmim2{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: -800px;
+    left: 400px;
+  }
+
+  .gjurmim3{
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    top: -750px;
+    left: 800px;
+  }
+b.tt{
+  color: white;
+}
+
+.pagesa1{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    top: -1190px;
+}
+
+.pagesa2{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    top: -1200px;
+    left: 500px;
+}
+
+.pagesa3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    top: -1250px;
+    left: 1070px;
+}
+
+.vleresimet{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 155px;
+    font-weight: bold;
+    right: 770px;
+}
+
+span.v{
+    color: black;
+    font-size: 55px;
+}
+
+.stars {
+    font-size: 40px;
+    color: gold; 
+    position: relative;
+    top: 115px;
+    right: 280px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-items: center;
+    position: relative;
+    top: 140px;
+    left: -800px;
+  }
+  
+  
+.rating-card {
+    width: 250px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ddd;
+    backdrop-filter: blur(5px);
+  }
+  
+  .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .comment {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  
+  .stars {
+    font-size: 22px;
+    color: gold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 8px 12px;
+    border: none;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button i {
+    color: black;
+  }
+  
+  button:hover {
+    background: #f2960b;
+  }
+  
+  button.active {
+    background: orange;
+  }
+  
+  button.active i {
+    color: white;
+  }
+
+  .koment-vleresim{
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+
+
+  }
+
+  b.white{
+    color: white;
+  }
+
+  .rating-container{
+    position: relative;
+    top: 200px;
+    right: 200px;
+
+  }
+
+  /* Container styling */
+.koment-vleresim {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .koment-vleresim h1 {
+    color: black;
+    background-color: none;
+    padding: 10px;
+    border-bottom: 2px solid rgb(75, 204, 248);
+    display: inline-block;
+  }
+  
+  /* Card container */
+  .custom-rating-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .custom-rating-card {
+    background: #ddd;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: -200px;
+    backdrop-filter: blur(5px);
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+  }
+  
+  /* Header emojis */
+  .custom-rating-header .custom-emoji {
+    font-size: 2em;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Rating text*/
+  .custom-p {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Rating buttons */
+  .custom-like-btn, .custom-unlike-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-like-btn:hover, .custom-unlike-btn:hover {
+    background-color: rgb(232, 126, 33);
+  }
+  
+  /* Submit button */
+  .custom-submit-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    left: 150px;
+  }
+  
+  .custom-submit-btn:hover {
+    background-color: rgb(242, 138, 26);
+  }
+  
+  .komentimi1{
+    position: relative;
+    top: 270px;
+    background: #ddd;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+    backdrop-filter: blur(5px);
+    position: relative;
+    left: 500px;
+    
+  }
+
+  h1.koment{
+    color: black;
+    font-size: 40px;
+  }
+
+  #koment{
+    border: none;
+    background-color: #ddd;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50px;
+  }
+
+  .submitt{
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 160px;
+    left: -129px;
+    padding: 10px 20px;
+  }
+
+  .text1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 370px;
+    left: -240px;
+    font-size: 45px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+
+  }
+
+  span.we{
+    color: rgb(22, 196, 226);
+
+  }
+
+  .end-text{
+    position: relative;
+    top: 400px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-size: 20px;
+    left: 570px;
+  }
+
+  .contats{
+    position: relative;
+    top: 900px;
+    color: white;
+    right: 1050px;
+    font-weight: bold;
+    font-size: 45px;
+    white-space: nowrap;
+    filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
+  }
+
+  b.black{
+    color: rgb(30, 229, 219);
+  }
+
+  /* Card Style*/
+.auth-card {
+  width: 350px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #ddd;
+  position: absolute;
+  filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
+}
+
+/* Log In Card in the left */
+.login-card {
+  left: 40px;
+  top: 1400px;
+}
+
+/* Sign Up Card in the right*/
+.signup-card {
+  right: 40px;
+  top: 1400px;
+}
+
+/* Title */
+.auth-card h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+/* Form */
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Label & Input */
+.auth-card label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttton */
+.auth-card button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-card button:hover {
+  background: #0056b3;
+}
+
+/* Link */
+.auth-card p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.auth-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}
+
+.text2{
+  color: white;
+  font-size: 35px;
+  position: relative;
+  top: 850px;
+  font-weight: bold;
+  left: 350px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  top: 1400px;
+}
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+b{
+  color: white;
+}
+
+
+a{
+  color: #32f1f7;
+}

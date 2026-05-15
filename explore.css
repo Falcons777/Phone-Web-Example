@@ -1,0 +1,137 @@
+/* Explore Css */
+body{
+    background: linear-gradient(125deg,#007bff,#fff,#007bff);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.page2 {
+    text-align: right;
+}
+.explore {
+    position: relative;
+    right: 950px;
+    font-size: 35px;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+span.eksploro{
+    color: #fdfeff;
+}
+
+.produktet {
+    text-align: center;
+}
+
+h1.produktet{
+    filter: drop-shadow(2px 2px 4px black);
+    color: #ffffff;
+}
+
+.kerko {
+    margin: 20px 0;
+}
+.search {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: black;
+    transition: 2s ease;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.search:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    scale: 1.1;
+}
+
+.paisjet {
+    margin-top: 20px;
+}
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgb(26, 141, 235);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.stok {
+    margin: 10px 0;
+}
+.button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: black;
+}
+.cart-icon, .basket-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.basket-icon {
+    top: 50px;
+    right: 20px;
+}
+.add-to-cart {
+    position: relative;
+    top: -10px;
+}
+
+/* Icons Css */
+.social-icons {
+position: fixed;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fff;
+padding: 10px;
+border-radius: 8px 0 0 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons a {
+margin: 10px 0;
+color: #333;
+font-size: 24px;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+color: #007bff;
+}
